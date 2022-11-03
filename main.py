@@ -6,12 +6,9 @@
   
 """
 
-import sys  
-sys.path.append('./src')   
-
 import numpy as np
-import src.radon_lib as rl
-import src.seismic_lib as seismic
+from src import radon_lib as rl
+from src import seismic_lib as seismic
 import matplotlib.pyplot as plt
 
 Np = 40         # Curvatures
